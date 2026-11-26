@@ -25,7 +25,7 @@ public struct GolfBagClub: Codable, Identifiable {
     public let customName: String?
     public let averageDistanceMeters: Double
     public let totalShotsRecorded: Int
-    public let isActive: BooleanLiteralType
+    public let isActive: Bool
 
     public var averageDistanceYards: Double {
         return averageDistanceMeters * 1.093613

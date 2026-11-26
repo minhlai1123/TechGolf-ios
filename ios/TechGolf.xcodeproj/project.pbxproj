@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		T10000012CE0000100000001 /* TechGolfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = T10000012CE0000100000002 /* TechGolfApp.swift */; };
+		T10000022CE0000100000001 /* DistanceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = T10000022CE0000100000002 /* DistanceEngine.swift */; };
+		T10000032CE0000100000001 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = T10000032CE0000100000002 /* LocationManager.swift */; };
+		T10000042CE0000100000001 /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = T10000042CE0000100000002 /* SupabaseManager.swift */; };
+		T10000052CE0000100000001 /* DomainEngines.swift in Sources */ = {isa = PBXBuildFile; fileRef = T10000052CE0000100000002 /* DomainEngines.swift */; };
+		T10000062CE0000100000001 /* GolfModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = T10000062CE0000100000002 /* GolfModels.swift */; };
+		T10000072CE0000100000001 /* GolfServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = T10000072CE0000100000002 /* GolfServices.swift */; };
+		T10000082CE0000100000001 /* AuthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = T10000082CE0000100000002 /* AuthViews.swift */; };
+		T10000092CE0000100000001 /* CourseViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = T10000092CE0000100000002 /* CourseViews.swift */; };
+		T100000A2CE0000100000001 /* FeatureViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = T100000A2CE0000100000002 /* FeatureViews.swift */; };
+		T100000B2CE0000100000001 /* RangefinderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = T100000B2CE0000100000002 /* RangefinderViews.swift */; };
+		T100000C2CE0000100000001 /* ScorecardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = T100000C2CE0000100000002 /* ScorecardViews.swift */; };
+		T100000D2CE0000100000001 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = T100000D2CE0000100000002 /* Supabase */; };
+		T100000F2CE0000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = T100000F2CE0000100000002 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		T10000002CE0000100000002 /* TechGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		T10000012CE0000100000002 /* TechGolfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechGolfApp.swift; sourceTree = "<group>"; };
+		T10000022CE0000100000002 /* DistanceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceEngine.swift; sourceTree = "<group>"; };
+		T10000032CE0000100000002 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		T10000042CE0000100000002 /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
+		T10000052CE0000100000002 /* DomainEngines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainEngines.swift; sourceTree = "<group>"; };
+		T10000062CE0000100000002 /* GolfModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfModels.swift; sourceTree = "<group>"; };
+		T10000072CE0000100000002 /* GolfServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfServices.swift; sourceTree = "<group>"; };
+		T10000082CE0000100000002 /* AuthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViews.swift; sourceTree = "<group>"; };
+		T10000092CE0000100000002 /* CourseViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViews.swift; sourceTree = "<group>"; };
+		T100000A2CE0000100000002 /* FeatureViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViews.swift; sourceTree = "<group>"; };
+		T100000B2CE0000100000002 /* RangefinderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangefinderViews.swift; sourceTree = "<group>"; };
+		T100000C2CE0000100000002 /* ScorecardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorecardViews.swift; sourceTree = "<group>"; };
+		T100000E2CE0000100000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		T100000F2CE0000100000002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		T10000202CE0000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				T100000D2CE0000100000001 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		T10000222CE0000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				T100000F2CE0000100000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXGroup section */
+		T10000302CE0000100000001 = {
+			isa = PBXGroup;
+			children = (
+				T10000312CE0000100000001 /* Sources */,
+				T100000F2CE0000100000002 /* Assets.xcassets */,
+				T100000E2CE0000100000002 /* Info.plist */,
+				T10000322CE0000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		T10000312CE0000100000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				T10000012CE0000100000002 /* TechGolfApp.swift */,
+				T10000332CE0000100000001 /* Core */,
+				T10000342CE0000100000001 /* Domain */,
+				T10000352CE0000100000001 /* Models */,
+				T10000362CE0000100000001 /* Services */,
+				T10000372CE0000100000001 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		T10000332CE0000100000001 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				T10000022CE0000100000002 /* DistanceEngine.swift */,
+				T10000032CE0000100000002 /* LocationManager.swift */,
+				T10000042CE0000100000002 /* SupabaseManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		T10000342CE0000100000001 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				T10000052CE0000100000002 /* DomainEngines.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		T10000352CE0000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				T10000062CE0000100000002 /* GolfModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		T10000362CE0000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				T10000072CE0000100000002 /* GolfServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		T10000372CE0000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				T10000082CE0000100000002 /* AuthViews.swift */,
+				T10000092CE0000100000002 /* CourseViews.swift */,
+				T100000A2CE0000100000002 /* FeatureViews.swift */,
+				T100000B2CE0000100000002 /* RangefinderViews.swift */,
+				T100000C2CE0000100000002 /* ScorecardViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		T10000322CE0000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				T10000002CE0000100000002 /* TechGolf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T10000102CE0000100000001 /* TechGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = T10000402CE0000100000001 /* Build configuration list for PBXNativeTarget "TechGolf" */;
+			buildPhases = (
+				T10000212CE0000100000001 /* Sources */,
+				T10000202CE0000100000001 /* Frameworks */,
+				T10000222CE0000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechGolf;
+			packageProductDependencies = (
+				T100000D2CE0000100000002 /* Supabase */,
+			);
+			productName = TechGolf;
+			productReference = T10000002CE0000100000002 /* TechGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		T10000002CE0000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					T10000102CE0000100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = T10000702CE0000100000001 /* Build configuration list for PBXProject "TechGolf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = T10000302CE0000100000001;
+			packageReferences = (
+				T10000502CE0000100000001 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = T10000322CE0000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T10000102CE0000100000001 /* TechGolf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		T10000212CE0000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				T10000012CE0000100000001 /* TechGolfApp.swift in Sources */,
+				T10000022CE0000100000001 /* DistanceEngine.swift in Sources */,
+				T10000032CE0000100000001 /* LocationManager.swift in Sources */,
+				T10000042CE0000100000001 /* SupabaseManager.swift in Sources */,
+				T10000052CE0000100000001 /* DomainEngines.swift in Sources */,
+				T10000062CE0000100000001 /* GolfModels.swift in Sources */,
+				T10000072CE0000100000001 /* GolfServices.swift in Sources */,
+				T10000082CE0000100000001 /* AuthViews.swift in Sources */,
+				T10000092CE0000100000001 /* CourseViews.swift in Sources */,
+				T100000A2CE0000100000001 /* FeatureViews.swift in Sources */,
+				T100000B2CE0000100000001 /* RangefinderViews.swift in Sources */,
+				T100000C2CE0000100000001 /* ScorecardViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		T10000502CE0000100000001 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		T100000D2CE0000100000002 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = T10000502CE0000100000001 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		T10000712CE0000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		T10000722CE0000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		T10000422CE0000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techgolf.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		T10000432CE0000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techgolf.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		T10000702CE0000100000001 /* Build configuration list for PBXProject "TechGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				T10000712CE0000100000001 /* Debug */,
+				T10000722CE0000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		T10000402CE0000100000001 /* Build configuration list for PBXNativeTarget "TechGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				T10000422CE0000100000001 /* Debug */,
+				T10000432CE0000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = T10000002CE0000100000001 /* Project object */;
+}

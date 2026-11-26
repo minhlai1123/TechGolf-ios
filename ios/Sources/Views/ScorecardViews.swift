@@ -62,7 +62,7 @@ public struct RoundSetupView: View {
                                 courseId: course.id,
                                 gameMode: selectedMode.rawValue,
                                 playerNames: players,
-                                creatorId: authService.currentUserId ?? "guest-id"
+                                creatorId: authService.currentUserId
                             )
                             holes = (try? await courseService.fetchHoles(courseId: course.id)) ?? []
                             if holes.isEmpty {

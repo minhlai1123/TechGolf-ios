@@ -6,8 +6,17 @@ public final class AuthService: ObservableObject {
 
     public init() {}
 
-    public var currentUserId: String? {
-        return client.auth.currentUser?.id.uuidString
+    public var currentUserId: String {
+        if let id = client.auth.currentUser?.id.uuidString {
+            return id
+        }
+        let key = "techgolf_guest_user_id"
+        if let saved = UserDefaults.standard.string(forKey: key) {
+            return saved
+        }
+        let newId = UUID().uuidString
+        UserDefaults.standard.set(newId, forKey: key)
+        return newId
     }
 
     public func signUp(email: String, pass: String, fullName: String) async throws {
