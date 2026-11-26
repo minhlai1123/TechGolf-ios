@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Profile: Codable, Identifiable {
+public struct Profile: Codable, Identifiable, Hashable {
     public let id: String
     public let email: String
     public let fullName: String
@@ -18,7 +18,7 @@ public struct Profile: Codable, Identifiable {
     }
 }
 
-public struct GolfBagClub: Codable, Identifiable {
+public struct GolfBagClub: Codable, Identifiable, Hashable {
     public let id: String
     public let userId: String
     public let clubType: String
@@ -42,7 +42,7 @@ public struct GolfBagClub: Codable, Identifiable {
     }
 }
 
-public struct Course: Codable, Identifiable {
+public struct Course: Codable, Identifiable, Hashable {
     public let id: String
     public let name: String
     public let address: String
@@ -60,7 +60,7 @@ public struct Course: Codable, Identifiable {
     }
 }
 
-public struct CourseTee: Codable, Identifiable {
+public struct CourseTee: Codable, Identifiable, Hashable {
     public let id: String
     public let courseId: String
     public let name: String
@@ -78,7 +78,7 @@ public struct CourseTee: Codable, Identifiable {
     }
 }
 
-public struct Hole: Codable, Identifiable {
+public struct Hole: Codable, Identifiable, Hashable {
     public let id: String
     public let courseId: String
     public let holeNumber: Int
@@ -106,7 +106,7 @@ public struct Hole: Codable, Identifiable {
     }
 }
 
-public struct Round: Codable, Identifiable {
+public struct Round: Codable, Identifiable, Hashable {
     public let id: String
     public let courseId: String
     public let gameMode: String
@@ -124,7 +124,7 @@ public struct Round: Codable, Identifiable {
     }
 }
 
-public struct RoundPlayer: Codable, Identifiable {
+public struct RoundPlayer: Codable, Identifiable, Hashable {
     public let id: String
     public let roundId: String
     public let userId: String?
@@ -140,7 +140,7 @@ public struct RoundPlayer: Codable, Identifiable {
     }
 }
 
-public struct RoundScore: Codable, Identifiable {
+public struct RoundScore: Codable, Identifiable, Hashable {
     public let id: String
     public let roundId: String
     public let playerId: String
@@ -163,7 +163,7 @@ public struct RoundScore: Codable, Identifiable {
     }
 }
 
-public struct Shot: Codable, Identifiable {
+public struct Shot: Codable, Identifiable, Hashable {
     public let id: String
     public let roundId: String
     public let playerId: String

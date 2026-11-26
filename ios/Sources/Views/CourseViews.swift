@@ -5,7 +5,6 @@ public struct CourseListView: View {
     @State private var courses: [Course] = []
     @State private var isLoading = true
     @State private var searchText = ""
-    @State private var selectedCourse: Course?
     @State private var showStats = false
     @State private var showConfig = false
 
@@ -36,9 +35,7 @@ public struct CourseListView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else {
                     List(filteredCourses) { course in
-                        Button {
-                            selectedCourse = course
-                        } label: {
+                        NavigationLink(value: course) {
                             HStack(spacing: 14) {
                                 Image(systemName: "flag.fill")
                                     .font(.title2)
@@ -55,9 +52,6 @@ public struct CourseListView: View {
                                         .font(.subheadline)
                                         .foregroundColor(.secondary)
                                 }
-                                Spacer()
-                                Image(systemName: "chevron.right")
-                                    .foregroundColor(.secondary)
                             }
                             .padding(.vertical, 4)
                         }
@@ -80,7 +74,7 @@ public struct CourseListView: View {
                     }
                 }
             }
-            .navigationDestination(item: $selectedCourse) { course in
+            .navigationDestination(for: Course.self) { course in
                 RoundSetupView(course: course)
             }
             .sheet(isPresented: $showStats) {
